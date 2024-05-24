@@ -1,0 +1,29 @@
+.row 
+{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-header {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.row-header img {
+    margin-right: 6px;
+}
+
+.row-content
+{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.row-content img
+{
+    margin: 6px;
+    max-height: 150px;
+}
